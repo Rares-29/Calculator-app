@@ -1,0 +1,123 @@
+/*****************************Tags*****************************/
+body
+{
+  margin:0;
+  font-family: 'League Spartan', sans-serif;
+  font-weight:700;
+  color:white;
+}
+main
+{
+  background-color:hsl(222, 26%, 31%);
+  margin: 7% 10%;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+button
+{
+  font-family: 'League Spartan', sans-serif;
+  font-weight:700;
+}
+
+section
+{
+  width:40%;
+  min-width:250px;
+  margin: auto;
+}
+
+
+
+/************************Classes*******************************/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.display
+{
+  background-color:hsl(224, 36%, 15%);
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:10px;
+  text-align:right;
+  border-radius:7px;
+  margin-bottom:15px;
+}
+
+.numbers-section
+{
+  background-color:hsl(224, 36%, 15%);
+  border-radius:7px;
+  padding:15px;
+}
+
+.grid-1
+{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+  padding-bottom: 15px;
+}
+
+.grid-2
+{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:10px;
+}
+
+.item
+{
+  background-color:hsl(30, 25%, 89%);
+  font-size:32px;
+  color:hsl(221, 14%, 31%);
+  box-shadow:0 3px 0 0 hsl(28, 16%, 65%);
+  border:none;
+  border-radius:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+.del
+{
+  color:white;
+  background-color: hsl(225, 21%, 49%);
+  font-size:16px;
+
+  box-shadow:0 3px 0 0 hsl(224, 28%, 35%);
+}
+
+.reset
+{
+  background-color: hsl(225, 21%, 49%);
+  box-shadow:0 3px 0 0 hsl(224, 28%, 35%);
+
+}
+
+.reset, .equal
+{
+  padding-bottom:10px;
+  padding-top:10px;
+  border-radius:10px;
+  border:none;
+  color:white;
+}
+
+.equal
+{
+  background-color:hsl(6, 63%, 50%);
+  box-shadow:0 3px 0 0 hsl(6, 70%, 34%);
+}
+
+@media (max-width:600px)
+{
+  main
+ {
+   margin: 5% 0;
+ }
+ section
+ {
+  width:250px;
+ }
+
+}
